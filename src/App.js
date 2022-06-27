@@ -1,8 +1,13 @@
 import './App.css';
-import Hello from './hello';
+import Nav from './componentes/Nav';
 
 function App() {
-	return <Hello />;
+	return (
+		<>
+		<Nav />
+		<div className="bg-indigo-600 w-full h-screen"></div>
+		</>
+	)
 }
 
 export default App;
